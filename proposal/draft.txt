@@ -1,0 +1,41 @@
+Project Progress Report
+
+Course: CS2704 – Data Analytics Using Python
+Student: Andrew Savoie, 
+Project: Mapping AI Exposure to Employment: A Data-Driven Study of U.S. Occupations (2014–2024)
+Date: December 11, 2025
+
+
+1. Project Overview
+This project examines whether U.S. occupations with higher exposure to generative AI have experienced different labor-market outcomes compared to lower-exposure occupations from 2014 to 2024.
+
+The study uses four main data sources:
+- AI exposure scores from the GPTs-are-GPTs research dataset
+- Employment and wage data (2014–2024) from the BLS Occupational Employment and Wage Statistics (OEWS)
+- Job openings and turnover data from the BLS Job Openings and Labor Turnover Survey (JOLTS)
+- Unemployment by education level from the BLS Current Population Survey (CPS)
+
+The core objective is to determine whether AI exposure is associated with differences in employment trends, job openings, and unemployment rates, particularly for white-collar and degree-requiring occupations.
+
+
+2. Progress Completed So Far
+All necessary datasets have been downloaded, organized, and successfully loaded into Python. This includes:
+
+- occ_level.csv (AI exposure scores)
+- BLS OEWS employment files for 2014–2024
+- BLS JOLTS hiring, separations, and openings data
+- BLS CPS unemployment tables parsed from HTML into DataFrames
+
+The data-loading pipeline is set up in Google Colab, and all files load correctly.
+
+3. Work Remaining
+The following tasks will be completed for the final submission:
+
+- Finish cleaning all the data sets
+- Merge all datasets by SOC occupation codes
+- Group occupations into high-, medium-, and low-AI-exposure categories
+- Perform trend analysis covering employment levels, unemployment rates, and job openings
+- Create visualizations (line plots, bar charts, correlation heatmaps)
+- Write full analysis, interpretation, and final conclusion
+- Prepare and submit the completed Jupyter Notebook
+
